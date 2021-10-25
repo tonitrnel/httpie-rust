@@ -1,0 +1,16 @@
+[package]
+name = "httpie-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.44"
+clap = "3.0.0-beta.5"
+colored = "2.0.0"
+jsonxf = "1.1.1"
+mime = "0.3.16"
+url = "2.2.2"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1.12", features = ["full"] }
